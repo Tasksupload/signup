@@ -9,7 +9,7 @@ function Phone() {
   return (
     <PhoneInput id="phone" style={{"width":"450px","padding":""}}
       placeholder="Enter phone number"
-      defaultCountry='india'
+      defaultCountry='India'
       value={value }
       maxLength="11"
       onChange={setValue}/>
